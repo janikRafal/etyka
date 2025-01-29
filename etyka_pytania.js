@@ -3,240 +3,264 @@ const questions = [
     question: "Kodeks Zawodowy Informatyków PTI:",
     type: "multiple",
     answers: [
-      { text: "został uchwalony w 1990 r.", explanation: "Nieprawda. Kodeks Zawodowy Informatyków PTI został uchwalony przez Polskie Towarzystwo Informatyków." },
-      { text: "przeznaczony jest tylko i wyłącznie dla członków PTI", explanation: "Nieprawda. Kodeks Zawodowy Informatyków PTI obowiązuje we wszystkich sferach aktywności informatycznej, nie tylko dla członków PTI." },
-      { text: "został uchwalony przez Polskie Towarzystwo Informatyków", explanation: "Prawda. Kodeks został uchwalony przez Polskie Towarzystwo Informatyków." },
-      { text: "obowiązuje we wszystkich sferach aktywności informatycznej zachowań", explanation: "Prawda. Kodeks Zawodowy Informatyków PTI obowiązuje we wszystkich sferach aktywności informatycznej." },
+      "został uchwalony w 1990 r.",
+      "przeznaczony jest tylko i wyłącznie dla członków PTI",
+      "został uchwalony przez Polskie Towarzystwo Informatyków",
+      "obowiązuje we wszystkich sferach aktywności informatycznej zachowań",
     ],
-    correct: [2,3],
-    explanation: "Kodeks Zawodowy Informatyków PTI został uchwalony przez Polskie Towarzystwo Informatyków i obowiązuje we wszystkich sferach aktywności informatycznej zachowań.",
+    correct: [2, 3],
+    explanation:
+      "Kodeks został uchwalony przez Polskie Towarzystwo Informatyczne (PTI) i obowiązuje we wszystkich obszarach aktywności zawodowej informatyków, nie tylko wąskiej grupy członków.",
   },
   {
-    question: "CV chronologiczne przedstawia doświadczenie zawodowe kandydata w odwrotnej kolejności chronologicznej.",
+    question:
+      "CV chronologiczne przedstawia doświadczenie zawodowe kandydata w odwrotnej kolejności chronologicznej",
     type: "single",
-    answers: [
-      { text: "Prawda", explanation: "Prawda. CV chronologiczne zazwyczaj przedstawia doświadczenie zawodowe w odwrotnej kolejności chronologicznej, zaczynając od najnowszego." },
-      { text: "Fałsz", explanation: "Fałsz. CV chronologiczne rzeczywiście przedstawia doświadczenie w odwrotnej kolejności chronologicznej." },
-    ],
+    answers: ["Prawda", "Fałsz"],
     correct: 0,
-    explanation: "CV chronologiczne przedstawia doświadczenie zawodowe kandydata w odwrotnej kolejności chronologicznej, zaczynając od najnowszego doświadczenia.",
+    explanation:
+      "W CV chronologicznym (często nazywanym odwrotnie chronologicznym) najpierw wymienia się najnowsze doświadczenia.",
   },
   {
     question: "Rerum novarum to:",
     type: "multiple",
     answers: [
-      { text: "enkylika papieża Leona XIII", explanation: "Prawda. 'Rerum Novarum' to encyklika papieża Leona XIII." },
-      { text: "dokument poświęcony tzw. kwestii robotniczej", explanation: "Prawda. Encyklika 'Rerum Novarum' poświęcona jest kwestii robotniczej." },
-      { text: "dokument opracowany przez Parlament Europejski", explanation: "Fałsz. 'Rerum Novarum' nie jest dokumentem opracowanym przez Parlament Europejski." },
-      { text: "dokument opracowany przez Komisję Europejską", explanation: "Fałsz. 'Rerum Novarum' to encyklika papieża, nie dokument Komisji Europejskiej." },
+      "encyklika papieża Leona XIII",
+      "dokument poświęcony tzw. kwestii robotniczej",
+      "dokument opracowany przez Parlament Europejski",
+      "dokument opracowany przez Komisję Europejską",
     ],
-    correct: [0,1],
-    explanation: "'Rerum Novarum' to encyklika papieża Leona XIII, poświęcona kwestii robotniczej.",
+    correct: [0, 1],
+    explanation:
+      "Rerum novarum to encyklika papieża Leona XIII z 1891 roku poświęcona kwestii robotniczej.",
   },
   {
     question: "Które stwierdzenia są prawdziwe?",
     type: "multiple",
     answers: [
-      { text: "mikroetyka bada aspekty etyczne w skali gospodarki narodowej oraz społeczeństwa", explanation: "Fałsz. Mikroetyka zajmuje się indywidualnym postępowaniem, podczas gdy makroetyka bada aspekty na poziomie społeczeństwa." },
-      { text: "etyka biznesu ma charakter wyłącznie teoretyczny", explanation: "Fałsz. Etyka biznesu ma zarówno aspekty teoretyczne, jak i praktyczne." },
-      { text: "społeczna odpowiedzialność przedsiębiorstw jest jednym ze sposobów realizacji etyki biznesu", explanation: "Prawda. CSR jest jednym ze sposobów realizacji etyki biznesu." },
-      { text: "kodeks etyczny stanowi element programu etycznego", explanation: "Prawda. Kodeks etyczny jest częścią szerszego programu etycznego firmy." },
+      "mikroetyka bada aspekty etyczne w skali gospodarki narodowej oraz społeczeństwa",
+      "etyka biznesu ma charakter wyłącznie teoretyczny",
+      "społeczna odpowiedzialność przedsiębiorstw jest jednym ze sposobów realizacji etyki biznesu",
+      "kodeks etyczny stanowi element programu etycznego",
     ],
-    correct: [2,3],
-    explanation: "Społeczna odpowiedzialność przedsiębiorstw jest jednym ze sposobów realizacji etyki biznesu, a kodeks etyczny stanowi element programu etycznego.",
+    correct: [2, 3],
+    explanation:
+      "Mikroetyka dotyczy raczej mniejszych skal, a etyka biznesu nie jest wyłącznie teoretyczna. Społeczna odpowiedzialność to praktyczny wymiar etyki biznesu, a kodeks etyczny jest częścią szerszego programu etycznego.",
   },
   {
     question: "Etyka gospodarcza ma charakter wartościujący.",
     type: "single",
-    answers: [
-      { text: "Prawda", explanation: "Prawda. Etyka gospodarcza ocenia działania gospodarcze na podstawie wartości moralnych." },
-      { text: "Fałsz", explanation: "Fałsz. Etyka gospodarcza ma charakter wartościujący, oceniając działania na podstawie wartości." },
-    ],
+    answers: ["Prawda", "Fałsz"],
     correct: 0,
-    explanation: "Etyka gospodarcza ocenia działania gospodarcze na podstawie przyjętych wartości moralnych, co nadaje jej charakter wartościujący.",
+    explanation:
+      "Etyka gospodarcza zajmuje się oceną działań w sferze gospodarczej i wprowadza kategorie dobra i zła, więc z definicji jest wartościująca.",
   },
   {
     question: "Program etyczny to element kodeksu etycznego.",
     type: "single",
-    answers: [
-      { text: "Prawda", explanation: "Fałsz. Program etyczny jest mechanizmem regulującym działania firmy, a nie elementem kodeksu." },
-      { text: "Fałsz", explanation: "Prawda. Program etyczny obejmuje szerszy zakres działań i zasad, a kodeks etyczny jest tylko jego częścią." },
-    ],
+    answers: ["Prawda", "Fałsz"],
     correct: 1,
-    explanation: "Fałsz. Program etyczny obejmuje szerszy zakres działań i zasad, a kodeks etyczny jest tylko jego częścią.",
+    explanation:
+      "Jest odwrotnie: to kodeks etyczny jest częścią szerszego programu etycznego, a nie na odwrót.",
   },
   {
-    question: "Amnesty International to światowa organizacja do walki z korupcją.",
+    question:
+      "Amnesty International to światowa organizacja do walki z korupcją.",
     type: "single",
-    answers: [
-      { text: "Prawda", explanation: "Fałsz. Amnesty International skupia się na obronie praw człowieka, a nie bezpośrednio na walce z korupcją." },
-      { text: "Fałsz", explanation: "Prawda. Amnesty International zajmuje się obroną praw człowieka, nie jest organizacją skupioną na walce z korupcją." },
-    ],
+    answers: ["Prawda", "Fałsz"],
     correct: 1,
-    explanation: "Fałsz. Amnesty International koncentruje się na ochronie praw człowieka, a nie na zwalczaniu korupcji.",
+    explanation:
+      "Amnesty International zajmuje się ochroną praw człowieka, a nie wyłącznie walką z korupcją.",
   },
   {
-    question: "Specyfika wykonywanego zawodu może być uregulowana odrębnymi zestawami norm, czyli:",
+    question:
+      "Specyfika wykonywanego zawodu może być uregulowana odrębnymi zestawami norm, czyli:",
     type: "single",
     answers: [
-      { text: "kodeksem cywilnym", explanation: "Fałsz. Kodeks cywilny reguluje stosunki cywilnoprawne, nie specyfikę poszczególnych zawodów." },
-      { text: "kodeksem administracyjnym", explanation: "Fałsz. Kodeks administracyjny reguluje postępowania administracyjne, nie specyfikę zawodów." },
-      { text: "kodeksem zawodowym", explanation: "Prawda. Kodeks zawodowy reguluje specyfikę etyczną i standardy danego zawodu." },
-      { text: "kodeksem karnym", explanation: "Fałsz. Kodeks karny reguluje odpowiedzialność karną, nie specyfikę zawodów." },
+      "kodeksem cywilnym",
+      "kodeksem administracyjnym",
+      "kodeksem zawodowym",
+      "kodeksem karnym",
     ],
     correct: 2,
-    explanation: "Specyfika wykonywanego zawodu może być uregulowana przez odrębny kodeks zawodowy, który określa normy etyczne i standardy dla danej profesji.",
+    explanation:
+      "Odrębne normy wykonywanego zawodu to właśnie kodeksy zawodowe, np. kodeksy etyczne czy deontologiczne.",
   },
   {
-    question: "Whistleblowing to praktyka polegająca na kopiowaniu rozwiązań dotyczących etycznych sposobów prowadzenia biznesu przez inne firmy.",
+    question:
+      "Whistleblowing to praktyka polegająca na kopiowaniu rozwiązań dotyczących etycznych sposobów prowadzenia biznesu przez inne firmy",
     type: "single",
-    answers: [
-      { text: "Prawda", explanation: "Fałsz. Whistleblowing polega na zgłaszaniu nieprawidłowości, a nie na kopiowaniu rozwiązań etycznych." },
-      { text: "Fałsz", explanation: "Prawda. Whistleblowing to zgłaszanie nieprawidłowości w organizacji, nie kopiowanie etycznych rozwiązań." },
-    ],
+    answers: ["Prawda", "Fałsz"],
     correct: 1,
-    explanation: "Fałsz. Whistleblowing odnosi się do zgłaszania nieprawidłowości lub nadużyć w organizacji, a nie do kopiowania etycznych rozwiązań od innych firm.",
+    explanation:
+      "Whistleblowing polega na ujawnianiu nadużyć czy nieetycznych zachowań w organizacji, nie ma związku z kopiowaniem rozwiązań.",
   },
   {
-    question: "Chociaż encyklika Rerum Novarum poświęcona była problematyce pracy robotników, to nie uznawała prawa do tworzenia pracowniczych związków zawodowych.",
+    question:
+      "Chociaż encyklika Rerum Novarum poświęcona była problematyce pracy robotników, to nie uznawała prawa do tworzenia pracowniczych związków zawodowych.",
     type: "single",
-    answers: [
-      { text: "Prawda", explanation: "Fałsz. Encyklika Rerum Novarum uznaje prawo do tworzenia związków zawodowych." },
-      { text: "Fałsz", explanation: "Prawda. Encyklika Rerum Novarum uznaje prawo do tworzenia pracowniczych związków zawodowych." },
-    ],
+    answers: ["Prawda", "Fałsz"],
     correct: 1,
-    explanation: "Fałsz. Encyklika Rerum Novarum uznaje prawo pracowników do tworzenia związków zawodowych jako ważny element obrony praw pracowniczych.",
+    explanation:
+      "Encyklika Rerum Novarum uznawała m.in. prawo pracowników do zrzeszania się w związki zawodowe.",
   },
   {
-    question: "Etyka gospodarcza obejmuje:",
+    question: "Etyka gospodarcza obejmuje",
     type: "multiple",
     answers: [
-      { text: "tylko etykę zawodową i etykę zarządzania", explanation: "Fałsz. Etyka gospodarcza obejmuje również inne obszary, takie jak etyka globalna." },
-      { text: "etykę globalną", explanation: "Prawda. Etyka globalna jest częścią etyki gospodarczej, odnosząc się do globalnych standardów etycznych w biznesie." },
-      { text: "etyką zarządzania", explanation: "Prawda. Etyka zarządzania jest kluczowym elementem etyki gospodarczej." },
-      { text: "etykę zawodową", explanation: "Prawda. Etyka zawodowa jest istotnym aspektem etyki gospodarczej." },
+      "tylko etykę zawodową i etykę zarządzania",
+      "etykę globalną",
+      "etykę zarządzania",
+      "etykę zawodową",
     ],
-    correct: [1,2,3],
-    explanation: "Etyka gospodarcza obejmuje etykę globalną, zarządzania oraz etykę zawodową.",
+    correct: [1, 2, 3],
+    explanation:
+      "Etyka gospodarcza nie ogranicza się wyłącznie do etyki zarządzania i etyki zawodowej, lecz obejmuje także etykę globalną i wiele innych obszarów.",
   },
   {
-    question: "Badaniem moralności praktykowanej przez przedstawicieli konkretnych zawodów lub profesji bezpośrednio lub pośrednio związanych z gospodarką rynkową (np. doradca podatkowy, informatyk, makler) zajmuje się etyka zawodowa.",
+    question:
+      "Badaniem moralności praktykowanej przez przedstawicieli konkretnych zawodów lub profesji bezpośrednio lub pośrednio związanych z gospodarką rynkową zajmuje się etyka zawodowa.",
     type: "single",
-    answers: [
-      { text: "Prawda", explanation: "Prawda. Etyka zawodowa bada moralność działań w konkretnych zawodach i profesjach." },
-      { text: "Fałsz", explanation: "Fałsz. Etyka zawodowa właśnie zajmuje się badaniem moralności w zawodach." },
-    ],
+    answers: ["Prawda", "Fałsz"],
     correct: 0,
-    explanation: "Prawda. Etyka zawodowa analizuje i ocenia moralność działań osób w konkretnych zawodach lub profesjach.",
+    explanation:
+      "Etyka zawodowa dotyczy norm i zasad moralnych praktykowanych w konkretnych grupach zawodowych.",
   },
   {
     question: "Rozwój zrównoważony:",
     type: "multiple",
     answers: [
-      { text: "pozwala osiągnąć efekty synergiczne pomiędzy sferą ekonomiczną, społeczną i środowiskiem", explanation: "Prawda. Rozwój zrównoważony dąży do synergii między ekonomią, społeczeństwem a środowiskiem." },
-      { text: "obejmuje wyzwania i zobowiązania, które podejmowane są na rzecz ochrony środowiska, społeczności i gospodarki", explanation: "Prawda. Rozwój zrównoważony wiąże się z podjęciem działań na rzecz ochrony środowiska, społeczeństwa i gospodarki." },
-      { text: "stanowi sposób gospodarowania, w którym zaspokojenie potrzeb obecnego pokolenia nie zmniejszy szans zaspokojenia potrzeb przyszłych pokoleń", explanation: "Prawda. Kluczową ideą rozwoju zrównoważonego jest zapewnienie, że obecne działania nie ograniczają możliwości przyszłych pokoleń." },
-      { text: "traktuje czynniki ekonomiczne, polityczne, społeczne i ekologiczne jako niezależne od siebie", explanation: "Fałsz. Rozwój zrównoważony integruje te czynniki, traktując je jako powiązane i wzajemnie zależne." },
+      "pozwala osiągnąć efekty synergiczne pomiędzy sferą ekonomiczną, społeczną i środowiskiem",
+      "obejmuje wyzwania i zobowiązania, które podejmowane są na rzecz ochrony środowiska, społeczności i gospodarki",
+      "stanowi sposób gospodarowania, w którym zaspokojenie potrzeb obecnego pokolenia nie zmniejszy szans zaspokojenia potrzeb przyszłych pokoleń",
+      "traktuje czynniki ekonomiczne, polityczne, społeczne i ekologiczne jako niezależne od siebie",
     ],
-    correct: [0,1,2],
-    explanation: "Rozwój zrównoważony pozwala na osiągnięcie synergii między sferami ekonomiczną, społeczną i środowiskową, obejmuje wyzwania związane z ochroną środowiska, społeczności i gospodarki oraz zapewnia zaspokojenie potrzeb obecnych i przyszłych pokoleń.",
+    correct: [0, 1, 2],
+    explanation:
+      "Rozwój zrównoważony łączy aspekty społeczne, środowiskowe i ekonomiczne; nie traktuje ich jako niezależne, lecz współzależne.",
   },
   {
     question: "Pierwsza książka dotycząca etyki biznesu pochodzi z:",
     type: "multiple",
-    answers: [
-      { text: "1885 r.", explanation: "Fałsz. Pierwsza książka dotycząca etyki biznesu nie pochodzi z 1885 roku." },
-      { text: "1994 r.", explanation: "Fałsz. To zbyt późny termin na pierwszą książkę dotyczącą etyki biznesu." },
-      { text: "1926 r.", explanation: "Prawda. Pierwsze prace na temat etyki biznesu zaczęły się pojawiać w XX wieku, w tym około 1926 roku." },
-      { text: "1960 r.", explanation: "Prawda. W 1960 roku pojawiły się ważne prace na temat etyki biznesu." },
-    ],
-    correct: [2,3],
-    explanation: "Pierwsza książka dotycząca etyki biznesu pochodzi z lat 20. i 60. XX wieku, co odpowiada opcjom c i d.",
+    answers: ["1885 r.", "1994 r.", "1926 r.", "1960 r."],
+    correct: [2],
+    explanation:
+      "Za jedną z pierwszych publikacji z zakresu etyki biznesu uznaje się pozycję z roku 1926; przyjmuje się, że dopiero wtedy zaczęto systematycznie łączyć pojęcia 'biznes' i 'etyka' w literaturze.",
   },
   {
     question: "CV jest znacznie dłuższe i bardziej kompleksowe niż __________",
-    type: "text",
-    correct: "resume",
-    explanation: "Resume jest zazwyczaj krótsze i mniej szczegółowe niż CV (Curriculum Vitae), które jest bardziej kompleksowe i szczegółowe.",
+    type: "single",
+    answers: ["resume", "cover letter", "job application", "reference letter"],
+    correct: 0,
+    explanation:
+      "W krajach anglosaskich 'resume' jest krótką formą dokumentu rekrutacyjnego, a CV jest bardziej rozbudowane.",
   },
   {
-    question: "Narzędzia CSR umożliwiające przedsiębiorstwom wpływanie na postawy społeczeństwa za pośrednictwem mediów to __________",
-    type: "text",
-    correct: "kampanie społeczne",
-    explanation: "Kampanie społeczne są narzędziami CSR, które pozwalają firmom wpływać na postawy społeczeństwa poprzez działania medialne.",
-  },
-  {
-    question: "Opracowanie kodeksu etycznego przedsiębiorstwa jest mechanizmem CSR o charakterze uczestniczącym",
+    question:
+      "Narzędzia CSR umożliwiające przedsiębiorstwom wpływanie na postawy społeczeństwa za pośrednictwem mediów to __________",
     type: "single",
     answers: [
-      { text: "Prawda", explanation: "Fałsz. Opracowanie kodeksu etycznego jest mechanizmem CSR o charakterze regulacyjnym, a nie uczestniczącym." },
-      { text: "Fałsz", explanation: "Prawda. Kodeks etyczny jest elementem regulującym, natomiast mechanizmy uczestniczące to na przykład dialog z interesariuszami." },
+      "kampanie społeczne",
+      "podnoszenie cen",
+      "audyt technologiczny",
+      "badania fokusowe",
     ],
-    correct: 1,
-    explanation: "Fałsz. Opracowanie kodeksu etycznego jest mechanizmem CSR o charakterze regulacyjnym, nie uczestniczącym.",
+    correct: 0,
+    explanation:
+      "Kampanie społeczne pozwalają firmom promować pozytywne zachowania i postawy wśród odbiorców, wspierając wizerunek odpowiedzialności społecznej.",
+  },
+  {
+    question:
+      "Opracowanie kodeksu etycznego przedsiębiorstwa jest mechanizmem CSR o charakterze uczestniczącym",
+    type: "single",
+    answers: ["Prawda", "Fałsz"],
+    correct: 0,
+    explanation:
+      "Tworzenie kodeksu etycznego zwykle angażuje różne grupy w firmie, jest więc narzędziem uczestniczącym w ramach CSR.",
   },
   {
     question: "Społeczna odpowiedzialność biznesu, ma swe podłoże w koncepcji:",
     type: "multiple",
     answers: [
-      { text: "historii biznesu", explanation: "Fałsz. Społeczna odpowiedzialność biznesu nie opiera się bezpośrednio na historii biznesu." },
-      { text: "żadna odpowiedź nie jest prawidłowa", explanation: "Fałsz. Prawidłowa odpowiedź to 'etyki biznesu'." },
-      { text: "etykiety biznesu", explanation: "Fałsz. Termin 'etykieta biznesu' nie jest powszechnie używany w kontekście CSR." },
-      { text: "etyki biznesu", explanation: "Prawda. Społeczna odpowiedzialność biznesu wynika z koncepcji etyki biznesu." },
+      "historii biznesu",
+      "żadna odpowiedź nie jest prawidłowa",
+      "etykiety biznesu",
+      "etyki biznesu",
     ],
     correct: [3],
-    explanation: "Społeczna odpowiedzialność biznesu ma swoje podłoże w koncepcji etyki biznesu.",
+    explanation:
+      "CSR (Corporate Social Responsibility) wyrasta z nurtu etyki biznesu, która dostarcza podstaw moralnych do odpowiedzialnego działania firm.",
   },
   {
-    question: "Negatywnym skutkiem realizacji idei CSR może być lepszy obraz marki.",
+    question:
+      "Negatywnym skutkiem realizacji idei CSR może być lepszy obraz marki.",
     type: "single",
-    answers: [
-      { text: "Prawda", explanation: "Fałsz. Lepszy obraz marki jest pozytywnym skutkiem realizacji CSR." },
-      { text: "Fałsz", explanation: "Prawda. Lepszy obraz marki jest pozytywnym, nie negatywnym skutkiem CSR." },
-    ],
+    answers: ["Prawda", "Fałsz"],
     correct: 1,
-    explanation: "Fałsz. Realizacja idei CSR przyczynia się do poprawy obrazu marki, co jest pozytywnym skutkiem.",
+    explanation:
+      "Lepszy wizerunek marki trudno uznać za negatywny skutek. Zazwyczaj to pozytywny rezultat działań w obszarze CSR.",
   },
   {
     question: "Do grona interesariuszy firmy należą:",
     type: "multiple",
     answers: [
-      { text: "menedżerowie", explanation: "Prawda. Menedżerowie są kluczowymi interesariuszami firmy." },
-      { text: "tylko i wyłącznie akcjonariusze", explanation: "Fałsz. Interesariusze to nie tylko akcjonariusze, ale także inne grupy jak klienci czy pracownicy." },
-      { text: "klienci", explanation: "Prawda. Klienci są ważnymi interesariuszami firmy." },
-      { text: "pracownicy", explanation: "Prawda. Pracownicy są kluczowymi interesariuszami firmy." },
+      "menedżerowie",
+      "tylko i wyłącznie akcjonariusze",
+      "klienci",
+      "pracownicy",
     ],
-    correct: [0,2,3],
-    explanation: "Menedżerowie, klienci i pracownicy są częścią grona interesariuszy firmy, podczas gdy akcjonariusze są tylko jedną z wielu grup interesariuszy.",
+    correct: [0, 2, 3],
+    explanation:
+      "Interesariuszami firmy są wszystkie podmioty mające wpływ na organizację lub pozostające pod jej wpływem: pracownicy, klienci, menedżerowie, społeczność lokalna i inni (nie tylko akcjonariusze).",
   },
   {
-    question: "Proces przemian, który zapewnia zaspokajanie potrzeb obecnego pokolenia bez umniejszania szans rozwojowych przyszłych generacji, nosi nazwę ______",
-    type: "text",
-    correct: "rozwój zrównoważony",
-    explanation: "Proces ten nazywa się rozwojem zrównoważonym, który zakłada zrównoważone zarządzanie zasobami w celu zaspokojenia potrzeb obecnych i przyszłych pokoleń.",
+    question:
+      "Proces przemian, który zapewnia zaspokajanie potrzeb obecnego pokolenia bez umniejszania szans rozwojowych przyszłych generacji, nosi nazwę ______",
+    type: "single",
+    answers: [
+      "rozwój zrównoważony",
+      "inflacja",
+      "recesja",
+      "cykl koniunkturalny",
+    ],
+    correct: 0,
+    explanation:
+      "Jest to definicja zrównoważonego rozwoju (sustainable development).",
   },
   {
     question: "Które stwierdzenia są prawdziwe?:",
     type: "multiple",
     answers: [
-      { text: "edukacja i nauka są jednym z obszarów CSR", explanation: "Prawda. Edukacja i nauka są często obszarami, na których koncentrują się działania CSR." },
-      { text: "referencje nigdy nie znajdują się w CV", explanation: "Fałsz. Referencje mogą być częścią CV, choć nie zawsze są obowiązkowe." },
-      { text: "program etyczny stanowi element kodeksu etycznego", explanation: "Fałsz. Program etyczny jest szerszy niż kodeks etyczny; kodeks jest jego częścią." },
-      { text: "kodeks etyczny stanowi element programu etycznego", explanation: "Prawda. Kodeks etyczny jest częścią szerszego programu etycznego firmy." },
+      "edukacja i nauka są jednym z obszarów CSR",
+      "referencje nigdy nie znajdują się w CV",
+      "program etyczny stanowi element kodeksu etycznego",
+      "kodeks etyczny stanowi element programu etycznego",
     ],
-    correct: [0,3],
-    explanation: "Edukacja i nauka są obszarami CSR, a kodeks etyczny stanowi element programu etycznego. Referencje mogą, ale nie muszą, być częścią CV.",
+    correct: [0, 3],
+    explanation:
+      "Edukacja i nauka to ważne obszary działań CSR. Kodeks etyczny jest zazwyczaj elementem szerszego programu etycznego, a nie odwrotnie. Referencje mogą się w CV pojawiać.",
   },
   {
-    question: "Badaniem moralności praktykowanej przez przedstawicieli konkretnych zawodów lub profesji bezpośrednio lub pośrednio związanych z gospodarką rynkową (np. doradca podatkowy, informatyk, makler) zajmuje się __________",
-    type: "text",
-    correct: "etyka zawodowa",
-    explanation: "Etyka zawodowa zajmuje się badaniem i oceną moralności działań osób wykonujących określone zawody lub profesje.",
+    question:
+      "Badaniem moralności praktykowanej przez przedstawicieli konkretnych zawodów lub profesji bezpośrednio lub pośrednio związanych z gospodarką rynkową zajmuje się __________",
+    type: "single",
+    answers: [
+      "etyka zawodowa",
+      "filozofia analityczna",
+      "zarządzanie zasobami ludzkimi",
+      "prawo spółek handlowych",
+    ],
+    correct: 0,
+    explanation:
+      "Pojęcie 'etyka zawodowa' dotyczy norm moralnych w konkretnych profesjach.",
   },
   {
-    question: "Zgodnie z ideą społecznej odpowiedzialności biznesu działania gospodarcze powinny być: __________ odpowiedzialne, ekologicznie przyjazne i ekonomicznie wartościowe.",
-    type: "text",
-    correct: "społecznie",
-    explanation: "Zgodnie z ideą CSR, działania gospodarcze powinny być społecznie odpowiedzialne, ekologicznie przyjazne i ekonomicznie wartościowe.",
+    question:
+      "Zgodnie z ideą społecznej odpowiedzialności biznesu działania gospodarcze powinny być: __________ odpowiedzialne, ekologicznie przyjazne i ekonomicznie wartościowe.",
+    type: "single",
+    answers: ["społecznie", "nieobowiązkowo", "centralnie", "prywatnie"],
+    correct: 0,
+    explanation:
+      "CSR wskazuje, że działalność gospodarcza musi uwzględniać dobro społeczne, dbać o środowisko i przynosić wartości ekonomiczne.",
   },
 ];
