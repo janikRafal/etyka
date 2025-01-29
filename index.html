@@ -157,7 +157,7 @@
   </head>
 
   <body>
-    <h1>Etyka i ekonomia biznsesu</h1>
+    <h1>Etyka i ekonomia biznesu</h1>
     <div id="result"></div>
     <div id="quizContainer"></div>
     <script src="etyka_pytania.js"></script>
@@ -352,6 +352,7 @@
 
       function generateQuiz() {
         shuffledQuestions.forEach((q, index) => {
+          console.log("q", q);
           const questionDiv = document.createElement("div");
           questionDiv.classList.add("question");
           questionDiv.setAttribute("data-question", index);
