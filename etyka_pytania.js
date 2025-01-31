@@ -179,7 +179,7 @@ const questions = [
       "Tworzenie kodeksu etycznego zwykle angażuje różne grupy w firmie, jest więc narzędziem uczestniczącym w ramach CSR.",
   },
   {
-    question: "Społeczna odpowiedzialność biznesu, ma swe podłoże w koncepcji:",
+    question: "Społeczna odpowiedzialność biznesu, ma swe podłoże w koncepcji (wybierz jedną lub więcej):",
     type: "multiple",
     answers: [
       "historii biznesu",
